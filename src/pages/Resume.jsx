@@ -1,7 +1,8 @@
-export default Resume(){
+import React from "react";
+export default function Resume() {
     return (
       <div>
-        <h1>About Page</h1>
+        <h1>Resume</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -10,7 +11,14 @@ export default Resume(){
           imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
           in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
         </p>
+
+
+
+
+      <a href="testimg.jpg" download>Click here!</a>
+
       </div>
-    );}
+    );
+}
   
   

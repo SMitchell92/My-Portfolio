@@ -1,11 +1,13 @@
+import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Nav from './components/NavTabs';
+import NavTabs from './components/NavTabs';
+import "./App.css";
 
 function App() {
 
     return (
     <>
-      <Nav />
+      <NavTabs />
       <main className="mx-3">
         <Outlet />
       </main>

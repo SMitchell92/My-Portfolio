@@ -1,6 +1,30 @@
-#root {
+/* #root {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
-  }
+  } */
+
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin:  1.2rem;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#inputName-warning {
+    color: red;
+
+}
+
+
+.hidden {
+    display: none;
+}

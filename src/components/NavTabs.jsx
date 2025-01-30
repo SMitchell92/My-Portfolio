@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 
@@ -11,14 +12,6 @@ function NavTabs() {
           to="/"
 
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/about"
-          className={currentPage === '/about' ? 'nav-link active' : 'nav-link'}
         >
           About
         </Link>
