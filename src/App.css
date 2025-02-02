@@ -1,6 +1,17 @@
+:root {
+    /* CSS HEX */
+--english-violet: #56445dff;
+--cadet-gray: #8ba6a9ff;
+--vermilion: #f64740ff;
+--mindaro: #e6f9afff;
+--hunyadi-yellow: #f6bd60ff;
+}
+body {
+    background-color: var(--cadet-gray);
+}
 /* #root {
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 0 1rem;
     padding: 2rem;
     text-align: center;
   } */
@@ -18,13 +29,89 @@
     flex-direction: column;
 }
 
+#name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#email {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#message {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+}
 
 #inputName-warning {
     color: red;
 
 }
 
+#emailName-warning {
+    color: red;
+
+}
+
+#invalidEmail-warning {
+    color: red;
+
+}
+
+#Message-warning {
+    color: red;
+
+}
+
+#link {
+    display: flex;
+    flex-direction: row;
+}
 
 .hidden {
     display: none;
+}
+
+#employeeTracker {
+    width: 666px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+#weatherForecast {
+    width: 666px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+#vehicleDepot {
+    width: 666px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+#readMeGenerator {
+    width: 666px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+#githubLink {
+    margin: 3rem;
+}
+
+#linkedinLink {
+    margin: 3rem;
+}
+
+label {
+    display:block
 }

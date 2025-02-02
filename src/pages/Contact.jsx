@@ -5,6 +5,9 @@ import { useState } from "react";
 export default function Contact() {
 
   const [inputName, setInputName] = useState("");
+  const [emailName, setEmailName] = useState("");
+  const [Message, setMessage] = useState("");
+
 
   return (
     <div>
@@ -13,16 +16,14 @@ export default function Contact() {
       <form>
 
         <div>
-          <label for="name">Name:</label>
+          <label for="name">Name</label>
           <input
             type="text"
             id="name"
-            name="name"
-            required
+            name="name" required
             value={inputName}
             onChange={(event) => {
               setInputName(event.target.value)
-              console.log(inputName)
             }}
             onBlur={() => {
               if(inputName == "") {
@@ -39,13 +40,53 @@ export default function Contact() {
         </div>
 
         <div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required></input>
+          <label for="email">Email</label>
+          <input 
+          type="text" 
+          id="email" 
+          name="email" required
+          value={emailName}
+            onChange={(event) => {
+              setEmailName(event.target.value)
+              console.log(emailName)
+              if(emailName != "") {
+                document.getElementById("invalidEmail-warning").classList.remove("hidden")
+              } else {
+                document.getElementById("invalidEmail-warning").classList.add("hidden")
+              }
+            }}
+            onBlur={() => {
+              if(emailName == "") {
+                document.getElementById("emailName-warning").classList.remove("hidden")
+              } else {
+                document.getElementById("emailName-warning").classList.add("hidden")
+              }
+            }}
+          >
+
+          </input>
+          <p id="invalidEmail-warning" class="hidden">Email address invalid!</p>
+          <p id="emailName-warning" class="hidden">Email address required!</p>
         </div>
 
         <div>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
+          <label for="message">Message</label>
+          <textarea id="message" 
+          name="message" required
+          value={Message}
+            onChange={(event) => {
+              setMessage(event.target.value)
+              console.log(Message)
+            }}
+            onBlur={() => {
+              if(Message == "") {
+                document.getElementById("Message-warning").classList.remove("hidden")
+              } else {
+                document.getElementById("Message-warning").classList.add("hidden")
+              }
+            }}>
+          </textarea>
+          <p id="Message-warning" class="hidden">Message required!</p>
         </div>
 
         <button type="submit">Submit</button>
