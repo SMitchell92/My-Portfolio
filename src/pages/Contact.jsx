@@ -10,7 +10,7 @@ export default function Contact() {
 
 
   return (
-    <div>
+    <div id="nav-page-container">
       <h1>Contact Page</h1>
 
       <form>

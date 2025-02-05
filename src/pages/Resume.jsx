@@ -1,7 +1,7 @@
 import React from "react";
 export default function Resume() {
     return (
-      <div>
+      <div id="nav-page-container">
         <h1>Resume</h1>
         <h6><a href="Stuart-Mitchell-Programming-Resume.pdf" download>Click here to download my resume</a></h6>
         <h3>Front-End Proficiencies</h3>

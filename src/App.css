@@ -7,26 +7,27 @@
 --hunyadi-yellow: #f6bd60ff;
 }
 body {
-    background-color: var(--cadet-gray);
+    background-color: var(--english-violet);
 }
-/* #root {
+#root {
     max-width: 1280px;
     margin: 0 1rem;
-    padding: 2rem;
-    text-align: center;
-  } */
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  } 
 
 
 #avatar {
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
     margin:  1.2rem;
 }
 
-#about-container {
+#nav-page-container {
     display: flex;
     flex-direction: column;
+    color: var(--mindaro);
 }
 
 #name {
@@ -67,42 +68,24 @@ body {
 
 }
 
-#link {
-    display: flex;
-    flex-direction: row;
+.link {
+    color: var(--cadet-gray)
 }
 
 .hidden {
     display: none;
 }
 
-#employeeTracker {
-    width: 666px;
-    height: 420px;
-    border-radius: 10px;
-    margin: 1rem;
+.nav-item {
+    color: var(--cadet-gray);
 }
 
-#weatherForecast {
+#portfolioPNG {
     width: 666px;
     height: 420px;
     border-radius: 10px;
     margin: 1rem;
-}
-
-#vehicleDepot {
-    width: 666px;
-    height: 420px;
-    border-radius: 10px;
-    margin: 1rem;
-}
-
-#readMeGenerator {
-    width: 666px;
-    height: 420px;
-    border-radius: 10px;
-    margin: 1rem;
-}
+} 
 
 #githubLink {
     margin: 3rem;
@@ -114,4 +97,21 @@ body {
 
 label {
     display:block
+}
+
+p {
+   font-size: larger; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--mindaro);
+    color: var(--english-violet);
+}
+
+a {
+    color: var(--hunyadi-yellow);
 }
