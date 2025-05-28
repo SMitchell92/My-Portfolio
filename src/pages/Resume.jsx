@@ -3,7 +3,7 @@ export default function Resume() {
     return (
       <div id="nav-page-container">
         <h1>Resume</h1>
-        <h6><a href="Stuart-Mitchell-Programming-Resume.pdf" download>Click here to download my resume</a></h6>
+        <h6><a href="Coding_Resume_Stuart_Mitchell.pdf" download>Click here to download my resume</a></h6>
         <h3>Front-End Proficiencies</h3>
         <ul>
         <li>HTML</li>
@@ -13,6 +13,7 @@ export default function Resume() {
         <li>Responsive Design</li>
         <li>React</li>
         <li>Bootstrap</li>
+        <li>Python</li>
         </ul>
 
         <h3>Back-End Proficiencies</h3>
@@ -20,6 +21,13 @@ export default function Resume() {
         <li>APIs</li>
         <li>Node</li>
         <li>Express</li>
+        <li>PostgreSQL</li>
+        <li>SQL</li>
+        <li>MySQL</li>
+        <li>Sequelize</li>
+        <li>MongoDB</li>
+        <li>Mongoose</li>
+        <li>Python</li>
         </ul>
       </div>
     );

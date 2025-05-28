@@ -5,7 +5,7 @@
 
 ## Description
 
-A simple portfolio of Stuart Mitchell to showcase his works.
+A simple portfolio to showcase the works of Stuart Mitchell.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ A simple portfolio of Stuart Mitchell to showcase his works.
 
 ## Installation
 
-Simply load the netlify link provided below.
+Navigate to the netlify link provided below.
 https://smitchellportfolio.netlify.app/
 
 ## Usage

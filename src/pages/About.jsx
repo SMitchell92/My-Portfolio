@@ -7,7 +7,7 @@ export default function About() {
             <img id="avatar" src="testimg.jpg" />
 
             <p>
-I am a budding FS programmer just finishing his 6 month bootcamp and getting ready to enter the industry itself.
+A budding FS programmer freshly graduated from a 6 month bootcamp, ready to enter the industry itself.
             </p>
         </div>
     );
