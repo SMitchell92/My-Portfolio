@@ -1,7 +1,7 @@
 import React from "react";
 export default function About() {
     return (
-        <div id="nav-page-container">
+        <div id="clearFont">
             <h1>About Me</h1>
 
             <img id="avatar" src="testimg.jpg" />

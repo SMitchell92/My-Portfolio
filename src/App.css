@@ -24,9 +24,14 @@ body {
     margin:  1.2rem;
 }
 
+#clearFont {
+    color: var(--mindaro);
+}
+
 #nav-page-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
     color: var(--mindaro);
 }
 
