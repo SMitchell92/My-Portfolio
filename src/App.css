@@ -31,6 +31,7 @@ body {
 #nav-page-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
     color: var(--mindaro);
 }
@@ -85,7 +86,14 @@ body {
     color: var(--cadet-gray);
 }
 
-#portfolioPNG {
+#image {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#card {
     width: 666px;
     height: 420px;
     border-radius: 10px;
